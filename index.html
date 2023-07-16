@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="wrap">
+        <div class="slider container1">
+            <div class="slider-line">
+                <img class="slider__img" src="./img/cars/1.webp" alt="">
+                <img class="slider__img" src="./img/cars/2.webp" alt="">
+                <img class="slider__img" src="./img/cars/3.webp" alt="">
+                <img class="slider__img" src="./img/cars/4.webp" alt="">
+                <img class="slider__img" src="./img/cars/5.webp" alt="">
+                <img class="slider__img" src="./img/cars/6.webp" alt="">
+                <img class="slider__img" src="./img/cars/7.webp" alt="">
+                <img class="slider__img" src="./img/cars/8.webp" alt="">
+                <img class="slider__img" src="./img/cars/9.webp" alt="">
+            </div>
+        </div>
+        <div class="wrap_center">
+                <button class="pagination__button pagination_brown" onclick="clickPag(-1,'container1')">
+                    <span class="pagination__arrow"> &lt; </span>
+                    <span class="pagination__word">Попередній</span>
+                </button>
+                <button class="pagination__button pagination_brown" onclick="clickPag(1, 'container1')">
+                    <span class="pagination__word">Наступний</span>
+                    <span class="pagination__arrow"> &gt; </span>
+                </button>
+        </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
